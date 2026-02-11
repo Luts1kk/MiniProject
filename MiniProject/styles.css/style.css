@@ -1,0 +1,164 @@
+.header {
+    margin-top: 137px;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    gap: 20px;
+    max-width: 672px;
+}
+.header__title {
+    font-family: "Robobto",sans-serif;
+    font-weight: 700;
+    line-height: 100%;
+    font-size: 38px;
+    letter-spacing: 0;
+    letter-spacing: -1px;
+    word-spacing: -1px;
+}
+.header__text {
+    display: flex;
+    justify-content: center;
+    font-family: "Robobto",sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    color: #5D7085;
+}
+.card {
+    margin-top: 68px;
+    margin-bottom: 190px;
+    margin-left: 419px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    max-width: 1082px;
+    margin-left: 419px;
+}
+.card-list {
+    display: flex;
+    flex-direction: row;
+    justify-self: center;
+    width: 266px;
+    height: 601px;
+}
+.title {
+    color: white;
+    margin-top: 14px;
+}
+.head-title {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 21px;
+}
+.text{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+}
+.price {
+    color: white;   
+    margin-top: 26px;
+    display: flex;
+}
+.dollar {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+}
+.coast {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 67px;
+}
+
+.personal {
+    padding: 72px 36px 36px 35px;
+    width: 266px;
+    height: 601px;
+    background-color: #FDC624;
+}
+.business {
+    padding: 72px 36px 36px 35px;
+    width: 266px;
+    height: 601px;
+    background-color: #55DCE7;
+}
+.developer {
+    padding: 72px 36px 36px 35px;
+    width: 266px;
+    height: 601px;
+    background-color: #3DACFC;
+}
+.agency{
+    padding: 72px 36px 36px 35px;
+    width: 266px;
+    height: 601px;
+    background-color: #939FB3;
+}
+.image {
+    width: 197px;
+    height: 114px;
+}
+.description {
+    color: white;
+    margin-left:20px;
+}
+.description-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 19px;
+}
+.description-text {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 100%;
+}
+.button{
+    margin-top:121px;
+    display: flex;
+    justify-self: center;
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+    padding: 13px 50px 11px 50px;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    line-height: 100%;
+}
+.button-business {
+    margin-top: 86px;
+    display: flex;
+    justify-self: center;
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+    padding: 13px 50px 11px 50px;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    line-height: 100%;
+}
+.button-developer {
+    margin-top: 50px;
+    display: flex;
+    justify-self: center;
+    color: #3DACFC;
+    background-color: white;
+    border: 2px solid white;
+    padding: 13px 50px 11px 50px;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    line-height: 100%;
+}
+.button-agency {
+    margin-top: 50px;
+    display: flex;
+    justify-self: center;
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+    padding: 13px 50px 11px 50px;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    line-height: 100%;
+}
+
